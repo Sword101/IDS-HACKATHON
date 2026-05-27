@@ -14,6 +14,192 @@
 
  
   <link rel="stylesheet" href="style.css">
+  <style>
+      body{
+    background:#f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+}
+
+
+
+.projects-section{
+    padding:60px 0;
+}
+
+
+
+.section-header h2{
+    font-size:32px;
+    font-weight:700;
+    color:#0d2b57;
+    margin-bottom:10px;
+}
+
+.section-header p{
+    max-width:700px;
+    color:#666;
+    line-height:1.6;
+}
+
+
+
+.stat-box{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    border:1px solid #e4e7eb;
+}
+
+.stat-box h3{
+    color:#0d2b57;
+    font-weight:700;
+    margin-bottom:5px;
+}
+
+.stat-box span{
+    color:#666;
+    font-size:14px;
+}
+
+
+
+.project-card{
+    background:white;
+    border-radius:16px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+}
+
+.project-top{
+    background:#0d2b57;
+    color:white;
+    padding:20px;
+}
+
+.project-top h5{
+    margin-bottom:12px;
+    font-weight:600;
+}
+
+.badges .badge{
+    margin-right:8px;
+    padding:7px 12px;
+    font-size:12px;
+}
+
+.project-body{
+    padding:22px;
+}
+
+.location,
+.timeline{
+    color:#555;
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.location i,
+.timeline i{
+    margin-right:6px;
+    color:#0d2b57;
+}
+
+
+
+.progress-area{
+    margin-top:18px;
+}
+
+.progress{
+    height:10px;
+    margin-top:8px;
+    border-radius:20px;
+}
+
+
+
+.info-box{
+    background:#f8fafc;
+    padding:15px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.info-box strong{
+    display:block;
+    margin-bottom:8px;
+    color:#0d2b57;
+}
+
+.info-box p{
+    margin-bottom:0;
+    color:#555;
+}
+
+.info-box ul{
+    padding-left:18px;
+    margin-bottom:0;
+    color:#555;
+}
+
+
+
+.recommendation{
+    background:#edf7ed;
+    color:#1e6b3b;
+    padding:12px;
+    border-radius:10px;
+    margin-top:15px;
+    font-size:14px;
+}
+
+.recommendation i{
+    margin-right:6px;
+}
+
+
+
+.status-row{
+    margin-top:20px;
+}
+
+.status{
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.warning-status{
+    background:#fff3cd;
+    color:#856404;
+}
+
+.success-status{
+    background:#d1e7dd;
+    color:#0f5132;
+}
+
+
+
+@media(max-width:768px){
+
+    .section-header h2{
+        font-size:26px;
+    }
+
+    .project-top{
+        padding:16px;
+    }
+
+    .project-body{
+        padding:18px;
+    }
+
+}
+  </style>
 </head>
 
 <body>
@@ -51,14 +237,14 @@
       <div class="col-md-3 mb-3">
         <div class="stat-box">
           <h3>₹2.4 Cr</h3>
-          <a>Estimated Savings</a>
+          <span>Estimated Savings</span>
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="stat-box">
           <h3>18</h3>
-          <a>Departments Connected</a>
+          <span>Departments Connected</span>
         </div>
       </div>
 
@@ -76,7 +262,7 @@
             <h5>Smart Water Pipeline Upgrade</h5>
 
             <div class="badges">
-              <span class="badge bg-primary">Water Dept</span>
+              <a class="badge bg-primary">Water Dept</a>
               <a class="badge bg-secondary">Road Dept</a>
             </div>
           </div>
@@ -213,4 +399,4 @@
 </section>
 
 </body>
-              </html>
+</html>
